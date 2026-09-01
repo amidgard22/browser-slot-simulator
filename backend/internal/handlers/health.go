@@ -5,6 +5,7 @@ import (
     "net/http"
     "time"
 )
+
 type healthResponse struct {
     Status    string `json:"status"`
     Timestamp string `json:"timestamp"`
